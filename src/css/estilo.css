@@ -145,3 +145,52 @@ nav ul li a:hover{
     color: var(--text-color);
     transform: scale(1,2);
 }
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:var(--bg-dark);
+}
+#imgBanner{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    width:600px;
+    height:600px;
+    border-radius:50%;
+    border:5px solid var(--text-color);
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    margin-top: 200px;
+}
+@media (max-width: 768px){
+    .menu-hamburguer{
+        display: flex;
+    }
+    nav{
+        display: none;
+        position: absolute;
+        top:80px;
+        left:0;
+        width: 100%;
+        background: var(--header-bg);
+        flex-direction: column; 
+        padding:  20px 0;
+    }
+    nav.active{
+        display: block;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}	
+
+.open span:nth-child(1){transform: rotate(45deg) translate(5px,5px);}
+.open span:nth-child(2){opacity:0;}
+.open span:nth-child(3){transform: rotate(-45deg) translate(7px,-7px);}
