@@ -1,6 +1,6 @@
 let imagens=[
     "./src/assets/flor.png",
-    "./src/assets/palhaço.png",
+    "./src/assets/palhaco.png",
     "./src/assets/robo.png"
 ];
 
