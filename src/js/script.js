@@ -1,7 +1,7 @@
 let imagens=[
-    "./src/assets/flor.png",
-    "./src/assets/palhaco.png",
-    "./src/assets/robo.png"
+    "./src/assets/capa.png",
+    "./src/assets/dlc.png",
+    "./src/assets/calice.png",
 ];
 
 let index=0;
