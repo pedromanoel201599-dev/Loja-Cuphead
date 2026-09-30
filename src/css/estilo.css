@@ -22,7 +22,6 @@ body {
     background-position: center;
 }
 
-/* CABEÇALHO */
 
 header {
     height: 120px;
@@ -65,7 +64,6 @@ nav a:hover {
     color: var(--amarelo);
 }
 
-/* MENU */
 
 .menu-hamburguer {
     display: none;
@@ -81,7 +79,6 @@ nav a:hover {
     border-radius: 3px;
 }
 
-/* BANNER */
 
 #banner {
     position: relative;
@@ -119,7 +116,7 @@ nav a:hover {
     color: red;
     text-transform: uppercase;
 }
-/* TÍTULO */
+
 
 #anuncio {
     text-align: center;
@@ -130,8 +127,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-/* CARDS
-   A posição e estrutura dos cards foram mantidas */
 
 .card {
     display: grid;
@@ -182,7 +177,6 @@ nav a:hover {
     margin: 10px 0;
 }
 
-/* BOTÃO */
 
 .btn-comprar {
     background: var(--vermelho);
@@ -200,7 +194,6 @@ nav a:hover {
     color: var(--preto);
 }
 
-/* RODAPÉ */
 
 footer {
     background: var(--marrom);
@@ -227,8 +220,6 @@ footer {
 .open span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
 }
-
-/* CELULAR */
 
 @media (max-width: 768px) {
 
